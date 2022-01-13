@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---favicon (https://realfavicongenerator.net/)-->
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="manifest" href="images/icon/site.webmanifest">
+    <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!----google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <!----fontawesome-->
+    <script src="https://kit.fontawesome.com/f06c8202f2.js" crossorigin="anonymous"></script>
+
+    <!------ style---->
+    <link rel="stylesheet" href="css/style.css">
+    <title>simple website</title>
+
+</head>
+
+<body>
+    
+  <div id="container">
+      <!----header-->
+      <header>
+
+        <!----top-bar-->
+          <div id="topbar" >
+
+            <p id="tollfree" class="uni-padding">Toll Free: 1234-56-7890</p>
+     
+            <div id="social-icon" class="uni-padding">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </div>
+          </div>
+
+        <!---logo bar-->
+        <div id="logobar" class="uni-padding">
+          <img src="images/logo.png">
+        </div>
+
+        <!---nav bar-->
+        <nav id="navbar" class="uni-padding">
+          <ul>
+            <!---mobile btn-->
+            <li id="mbl-cross"> <a href="javascript:void(0)" onclick="closeMenu()"><i class="far fa-times-circle"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact us</a></li>
+         
+          </ul> 
+        </nav>
+        <!---mbl btn-->
+        <div id="mobile-bar" onclick="openMenu()">
+          <i class="fas fa-bars"></i> Menu
+        </div>
+      </header>
+
+      <!---main-->
+      <!---poster-->
+
+      <div id="poster" class="uni-padding">
+        <h1 style="
+        margin-top: 0px; text-align: center;">Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam dolores laudantium molestias, consequatur facilis voluptates quos. Facilis, cupiditate! Consequuntur, officiis.</p>
+      </div>
+
+
+      <!----why us-->
+
+      <div id="whysection" class="uni-padding">
+        <h1 class="red-heading"> Why us</h1>
+        <div class="section33">
+          <img src="images/img1.png">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+        </div>
+
+        <div class="section33">
+          <img src="images/img2.png">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+        </div>
+
+        <div class="section33">
+          <img src="images/img3.png">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+        </div>
+      </div>
+
+      <!---contact section-->
+      <div id="contact-container" class="uni-padding">
+        <div class="section70">
+          <h1>Lorem ipsum</h1> 
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla ab qui quia atque. Hic!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla ab qui quia atque. Hic!</p>
+        </div>
+        
+      </div>
+
+      <!--blog--------->
+      <div id="whysection" class="uni-padding">
+        <h1 class="red-heading"> Blog</h1>
+        <div class="section33">
+          <img src="images/blog1.jpg">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+          <a href="">Read more</a>
+        </div>
+
+        <div class="section33">
+          <img src="images/blog2.jpg">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+          <a href="">Read more</a>
+        </div>
+
+        <div class="section33">
+          <img src="images/blog3.jpg">
+          <h2>Lorem, ipsum.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae ut. Nemo sunt aliquid ullam minima magni ipsum earum fugiat.</p>
+          <a href="">Read more</a>
+        </div>
+      </div>
+
+
+
+      <!----subscribe-->
+          <div id="subscribe-section" class="uni-padding">
+            <div class="section50">
+                <h2>Subscribe to our newsletter</h2>
+            </div>
+            <div class="section50">
+                <form>
+                  <input type="text" placeholder="Enter Email">
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+          </div>
+          <div>
+
+          </div>
+
+      <!---footer-->
+      <footer>
+          <div id="imp-link" class="uni-padding">
+                <div class="div33">
+                <h3> About us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br>Saepe, consequuntur? Delectus asperiores aut <br>libero iste harum consequuntur culpa esse,</p>
+              </div>
+                <div class="div33" id="footer-menu-container">
+                  <h3>Important links</h3>
+                  <ul id="footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="div33">
+                  <h3> Contact us</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Eaque nisi beatae possimus hic porro. Iste, ipsum sunt dolor <br>omnis.
+                  </p>
+                </div>
+          </div>
+          <div id="copyright">
+            <p> copyright &copy; Rushabh 2022-23</p>
+          </div>
+      </footer>
+  </div>
+
+    <!----script-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
